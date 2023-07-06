@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProyectoFinal23cv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinal23cv"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label FontSize="30" Content="Login" HorizontalAlignment="Left" Margin="356,28,0,0" VerticalAlignment="Top"/>
+        <Label  FontSize="15" Content="Usuario" HorizontalAlignment="Left" Margin="88,91,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="119"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Margin="87,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label FontSize="15
+               " Content="Password" HorizontalAlignment="Left" Margin="90,159,0,0" VerticalAlignment="Top" Width="119" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="89,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnLogin" Content="Iniciar" HorizontalAlignment="Left" Height="34" Margin="107,247,0,0" VerticalAlignment="Top" Width="64" Background="#FF96EAD1" Click="btnLogin_Click"/>
+
+    </Grid>
+</Window>
